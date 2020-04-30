@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  node-docker-example:
+    build: .
+    volumes: 
+      - ./src:/app/src
+    ports:
+      - "8082:8082"
+    command: yarn watch

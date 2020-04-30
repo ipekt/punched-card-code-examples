@@ -1,0 +1,21 @@
+{
+  "name": "01-express-docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm ./src/server.js",
+    "watch": "nodemon -r esm ./src/server.js"
+  },
+  "keywords": [],
+  "author": "ipek turgul",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
